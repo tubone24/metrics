@@ -69,6 +69,4 @@ jobs:
           plugin_habits_charts: yes     # Display charts section
           plugin_habits_trim: yes       # Trim unused hours on daily chart
           config_timezone: Asia/Tokyo # Set timezone
-          plugin_notable: yes
-          plugin_notable_repositories: yes     # Display repositories name instead of only organization name
           plugin_stargazers: yes
