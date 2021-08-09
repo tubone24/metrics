@@ -51,4 +51,21 @@ jobs:
           plugin_topics: yes
           plugin_topics_sort: stars
           plugin_topics_mode: mastered 
-          plugin_topics_limit: 0      
+          plugin_topics_limit: 0
+          plugin_skyline: yes
+          plugin_skyline_year: 0            # Set to 0 to display current year
+          plugin_skyline_frames: 60         # Use 60 frames (half-loop)
+          plugin_skyline_quality: 0.5       # Set image quality
+          plugin_skyline_compatibility: yes # Support additional browsers (⚠️ increases file size and reduce optimization)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year # Display full year instead of half year
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user #
+          plugin_gists: yes
+          plugin_habits: yes
+          plugin_habits_from: 200       # Use 200 events to compute habits
+          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_facts: yes      # Display facts section
+          plugin_habits_charts: yes     # Display charts section
+          plugin_habits_trim: yes       # Trim unused hours on daily chart
+          config_timezone: Asia/Tokyo # Set timezone
