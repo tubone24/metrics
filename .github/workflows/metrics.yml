@@ -71,3 +71,4 @@ jobs:
           config_timezone: Asia/Tokyo # Set timezone
           plugin_notable: yes
           plugin_notable_repositories: yes     # Display repositories name instead of only organization name
+          plugin_stargazers: yes
