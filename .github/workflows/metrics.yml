@@ -30,7 +30,7 @@ jobs:
           SHOW_PROFILE_VIEWS: "False"
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           plugin_reactions: yes
           plugin_reactions_limit: 200       
           plugin_reactions_days: 14     
@@ -47,8 +47,8 @@ jobs:
           plugin_wakatime_sections: time, projects, projects-graphs 
           plugin_wakatime_limit: 4                                
           plugin_wakatime_url: https://wakatime.com       
-          plugin_wakatime_user: .user.login                         # User
+          plugin_wakatime_user: tubone          
           plugin_topics: yes
-          plugin_topics_sort: stars    # Sort by most starred topics
-          plugin_topics_mode: mastered # Display icons instead of labels
-          plugin_topics_limit: 0       # Disable limitations
+          plugin_topics_sort: stars
+          plugin_topics_mode: mastered 
+          plugin_topics_limit: 0      
