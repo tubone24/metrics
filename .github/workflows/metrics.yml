@@ -1,6 +1,9 @@
 name: Metrics
 
 on:
+  push:
+    branches:
+      - main
   repository_dispatch:
     types: [test_trigger]
   workflow_dispatch:
